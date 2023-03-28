@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.logincontainer{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width: 600px) {
+    .logohead{
+        width: 350px;
+    }
+}
+.logintop{
+    height: 25%;
+    width: 100%;
+    background-color: #164f77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginmiddle{
+    height: 60%;
+    width: 100%;
+    background-image: linear-gradient(#1362ad,#278464);
+    display: flex;
+}
+
+.loginform{
+    margin: auto;
+    text-align: center;
+}
+.recover{
+    text-align: right;
+    font-size: 0.8rem;
+    margin: 0.2rem 1.7rem 0 0;
+  }
+  .recover a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .or{
+    font-size: 0.8rem;
+    margin-top: 15px;
+  }
+  .icons i{
+    color: #164f77;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 2px solid #dfe9f5;
+  }
+  .icons i:hover{
+    color: #ffffff;
+    transition: 1s;
+  }
+ 
+  .text1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size:10px;
+    align-items: center;
+
+}
+.text1 #text11 {
+    margin-left:100px;
+}
+
+.icons p{
+    font-size:9px;
+}
+
+
+
+.loginbottom{
+    height: 15%;
+    width: 100%;
+    background-color: #164f77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* styling for footer */
+
+footer {
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+	width:100%;
+    padding-bottom : 40px;
+}
+
+.copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#copyright {
+    color: rgba(246, 246, 246, 0.607);
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 15px ;
+}

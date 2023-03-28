@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="form.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+
+
+</head>
+<body>
+    <div class="container">
+        <header>Cashier's Registration</header>
+
+        <form action="insertcashier.php" method="POST">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>First Name</label>
+                            <input type="text" name="fname" placeholder="Enter your first name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Last Name</label>
+                            <input type="text"  name="lname" placeholder="Enter your last name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="number"  name="no" placeholder="Enter mobile number" min="9000000000" max="9999999999" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Employee_ID</label>
+                            <input type="number"  name="e_id" placeholder="Enter the ID" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Level</label>
+                            <input type="text"  name="level" placeholder="Enter the level" required>
+                        </div>
+                    </div>
+                </div>
+                       
+                        <button class="sumbit" name="submit">
+                            <span class="btnText">ADD</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>
